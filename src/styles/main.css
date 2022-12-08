@@ -22,3 +22,19 @@ img {
     width: 315px;
     margin: 50px auto;
 }
+
+body {
+    background: #b9d6e9;
+}
+
+#menu {
+    width: calc( 20% - 60px ); 
+    float: left;
+    background: #669b6c;
+    height: 100vh;
+    padding: 0 30px;
+}
+#contenutoprincipale {
+    width: 80%; 
+    float: left;
+}
