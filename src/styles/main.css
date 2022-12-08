@@ -1,21 +1,12 @@
+h1,h2,h3,h4,h5,h6 {
+    font-family:'Special Elite', 'Arial Narrow', Arial, sans-serif
+}
+
 h1,
 h2 {
     text-align: center;
 }
 
-h1 {
-    color: blueviolet;
-    font-size: 400%;
-}
-
-h2 {
-    color: rgb(35, 32, 229);
-    font-size: 200%;
-}
-
-h2:hover {
-    color: red;
-}
 
 img {
     display: block;
@@ -25,6 +16,7 @@ img {
 
 body {
     background: #b9d6e9;
+    font-family: 'Linden Hill', serif;
 }
 
 #menu {
@@ -37,4 +29,35 @@ body {
 #contenutoprincipale {
     width: 80%; 
     float: left;
+}
+
+#contenutoprincipale img {
+    transition: transform 4s;
+}
+#contenutoprincipale img:hover {
+    transform: rotate(360deg);
+    
+}
+
+#contenutoprincipale h1 {
+    color: blueviolet;
+    font-size: 400%;
+    margin: 0;
+}
+
+#contenutoprincipale #titoloprincipale {
+    margin: 35px;
+}
+
+#contenutoprincipale #sottotitoloprincipale {
+    font-size: 250%;
+}
+
+#contenutoprincipale h2 {
+    color: rgb(35, 32, 229);
+    font-size: 200%;
+}
+
+#contenutoprincipale h2:hover {
+    color: red;
 }
