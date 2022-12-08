@@ -1,0 +1,24 @@
+h1,
+h2 {
+    text-align: center;
+}
+
+h1 {
+    color: blueviolet;
+    font-size: 400%;
+}
+
+h2 {
+    color: rgb(35, 32, 229);
+    font-size: 200%;
+}
+
+h2:hover {
+    color: red;
+}
+
+img {
+    display: block;
+    width: 315px;
+    margin: 50px auto;
+}
